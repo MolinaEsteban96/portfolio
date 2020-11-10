@@ -1,5 +1,5 @@
 #main-navbar{
-    background: #78D0AA;
+    background: #43B581;
 }
 .navbar-brand{
     color: white;
@@ -28,12 +28,11 @@ img#codoacodo{
 }
 img#redhat{
     max-width: 100%;
-    max-height: 100%;
+    max-height: 80%;
 }
 div#studies2{
     border-radius: 50px;
     background: #C9DD95;
-    padding-bottom: 2%;
     padding-left: 5%;
     padding-right: 5%;
 }
@@ -78,4 +77,8 @@ img#vue{
 img#java{
     max-width: 60%;
     max-height: 50%;
+}
+img#ajax{
+    max-width: 60%;
+    max-height: 60%;
 }

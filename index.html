@@ -20,9 +20,9 @@
                 </div>
                 <ul class="navbar-nav mr-auto" id="navBar">
                     <div class="row">
-                        <li class="nav-item col-sm" id="navItem"><a href="#">Conóceme</a></li>
-                        <li class="nav-item col-sm" id="navItem"><a href="#">Estudios</a></li>
-                        <li class="nav-item col-sm" id="navItem"><a href="#">Destrezas</a></li>
+                        <li class="nav-item col-sm" id="navItem"><a href="#fakeNav">Conóceme</a></li>
+                        <li class="nav-item col-sm" id="navItem"><a href="#studiesTitle">Estudios</a></li>
+                        <li class="nav-item col-sm" id="navItem"><a href="#skillsTitle">Destrezas</a></li>
                         <li class="nav-item col-sm" id="navItem"><a href="#">Ejemplos</a></li>
                         <li class="nav-item col-sm" id="navItem"><a href="#">Contacto</a></li>
                     </div>
@@ -30,15 +30,15 @@
             </nav>
         </div>
         <div class="container-fluid" >
-            <nav class="navbar navbar-inverse">
+            <nav class="navbar navbar-inverse" id="fakeNav">
                 <div class="navbar-header">
-                    <a class="navbar-brand" href="#">Mi Portafolio</a>
+                    <a class="navbar-brand" href="#pageStart">Mi Portafolio</a>
                 </div>
-                <ul class="navbar-nav mr-auto" id="navBar">
+                <ul class="navbar-nav mr-auto" id="navBar"> <!---ESTA ES LA QUE NO SE VE-->
                     <div class="row">
-                        <li class="nav-item col-sm" id="navItem"><a href="#">Conóceme</a></li>
-                        <li class="nav-item col-sm" id="navItem"><a href="#">Estudios</a></li>
-                        <li class="nav-item col-sm" id="navItem"><a href="#">Destrezas</a></li>
+                        <li class="nav-item col-sm" id="navItem"><a href="#pageStart">Conóceme</a></li>
+                        <li class="nav-item col-sm" id="navItem"><a href="#studiesTitle">Estudios</a></li>
+                        <li class="nav-item col-sm" id="navItem"><a href="#Skills">Destrezas</a></li>
                         <li class="nav-item col-sm" id="navItem"><a href="#">Ejemplos</a></li>
                         <li class="nav-item col-sm" id="navItem"><a href="#">Contacto</a></li>
                     </div>
@@ -73,7 +73,7 @@
     <div class="container mt-4" id="Studies">
         <div class="row">
             <div class="col-sm-12 mt-4">
-                <h1 class="text-center">Mis estudios</h1>
+                <h1 class="text-center" id="studiesTitle">Mis estudios</h1>
             </div>
         </div>
         <div class="row mt-4" id="studies1">
@@ -101,10 +101,10 @@
         </div>    
     </div>
     
-    <div class="container mt-4" id="skills">
+    <div class="container mt-4" id="Skills">
         <div class="row">
             <div class="col-sm-12 mt-4">
-                <h1 class="text-center">Destrezas</h1>
+                <h1 class="text-center" id="skillsTitle">Destrezas</h1>
             </div>
         </div>
         <div class="row mt-4">
@@ -141,6 +141,11 @@
             </div>
         </div>
         <div class="row">
+            <div class="col-sm-4 col-md-4 text-center">
+                <img src="images/ajax.png" alt="ajax logo" id="ajax">
+            </div>
+        </div>
+        <div class="row">
             <div class="col-sm-12 text-center">
                 <img src="images/suspensivos.png" alt="puntosSuspensivos" id="puntos">
             </div>
@@ -153,7 +158,6 @@
                 <h2 class="text-center">Ejemplos</h2>
             </div>
         </div>
-        
     </div>
     <footer class="text-center">
         <p>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a></p>
